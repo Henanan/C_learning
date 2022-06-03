@@ -473,7 +473,7 @@ int main() {
 	cout << "ref2 = " << ref2 << endl;
 	cout << "ref2 = " << ref2 << endl;
 
-	test02() = 1000;
+	test02() = 1000;	//相当于 a = 1000
 
 	cout << "ref2 = " << ref2 << endl;
 	cout << "ref2 = " << ref2 << endl;
