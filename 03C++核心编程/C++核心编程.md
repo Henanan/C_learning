@@ -783,7 +783,7 @@ void func(const int &a)
 
 //2、函数重载碰到函数默认参数
 
-void func2(int a, int b = 10)
+void func2(int a, int b = 10)		//当函数重载碰到默认参数，出现二义性，因此在写函数重载时应避免给形参默认参数
 {
 	cout << "func2(int a, int b = 10) 调用" << endl;
 }
